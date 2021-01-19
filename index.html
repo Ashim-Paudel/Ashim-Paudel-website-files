@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- Meta Tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- CSS Libraries -->
+    <link rel="stylesheet" href="css/nomalize.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="library/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="library/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Website's Title -->
+    <title>Ashim Paudel's Website</title>
+    <link rel="icon" type="image/png" href="img/title.png">
+  </head>
+  <body>
+	
+	<!---placing a image at centre-->
+	<style>
+	.img-container{
+	text-align:center;
+	}
+	</style>
+	
+    <!-- navigation bar -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top py-3">
+        <div class="container">
+          <a class="navbar-brand scroll-link" href="#home">
+            <img src="img/title.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+            Ashim
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link scroll-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link scroll-link" href="#resume">About me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link scroll-link" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link scroll-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- home -->
+    <section id="home" class="website-section">
+      <div id="particles-js"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 justify-content-center">
+            <h1 id="name" class=" wow fadeIn">Ashim Paudel</h1>
+            <p id="tagline" class=" wow fadeIn">A python learner and tech-enthusiast.</p>
+            <a id="learn-more" class="scroll-link wow fadeIn" href="#resume"><i class="fa fa-angle-down"></i> Learn More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- resume -->
+    <section id="resume" class="website-section">
+      <div class="container">
+        <div class="row">
+          <h2 class="title wow slideInUp">Who is <b>Ashim?</b></h2>
+          <p class="text-center about w-75 mx-auto wow fadeIn">Tech-enthusiast and a learner currently diving into computer
+programming to explore the different dimensions in python and
+the way computer programming can be used to bring miracles in different aspects of human life. Being
+particular, highly interested in <strong>web development with python
+using Django</strong> and also in <strong>Data science</strong>.
+</p>
+        </div>
+		<div class="img-container">
+		<p style="text-align: centre;" align="center"><span style="font-size: large;"><img src="img/ashim.jpg" alt="Ashim Paudel"  width="259.6" height="344.667" ></span></p>
+		<p style="text-align: centre;"> A simple boy from a small beautiful village in <b>Nawalparasi</b>, who believes in hardwork rather than luck. <br> During my childhood, I was greatly fascinated by the working of electronic devices like <em>radio</em>,<em>television</em> and other appliances available at that time, later on those curiosities developed as my interest in the field of engineering.  </p>
+		<p style="text-align: centre;"><a href="file\ashim_resume.pdf" target='_blank'><em><b>Click here for my resume </b></b></em></a></p>
+		</div>
+		<div class="row">
+          <h2 class="title wow fadeIn">And I love.</h2>
+        </div>
+        <div class="row pt-4 wow fadeIn">
+          <div class="col-md-4">
+            <div class="card" style="max-width: 18rem;">
+              <img src="img/programming.jpg" class="card-img-top" alt="Progarmming">
+              <div class="card-body">
+                <h5 class="card-title"><b>Computer Programming</b></h5>
+                <p class="card-text">I love <b>Python</b> due to its simplicity and wide range of applications.Being an intermediate level programmer, I have developed many simple games and useful programs with python.</p>
+              </div>
+            </div>
+          </div>
+		  <div class="col-md-4">
+            <div class="card" style="max-width: 18rem;">
+              <img src="img/designing.jpg" class="card-img-top" alt="Progarmming">
+              <div class="card-body">
+                <h5 class="card-title"><b>Graphics Designing</b></h5>
+                <p class="card-text">I love graphics designing with Adobe Illustrator. I am familiar with <b>vector portraits</b>,<b>logo designing</b> and other simple graphics design as needed.                             </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card" style="max-width: 18rem;">
+              <img src="img/music.jpg" class="card-img-top" alt="Progarmming">
+              <div class="card-body">
+                <h5 class="card-title"><b>Music</b></h5>
+                <p class="card-text">Music has been a part of my daily activities and an inseparable means of entertainment for me. The power within music is marvelous. I listen music while programming and doing other stuffs too.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="website-section">
+      <div class="container">
+        <div class="row">
+          <h2 class="title wow slideInUp">What I have done?</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="grid wow fadeIn">
+              <img src="img/hangman.png" alt="Hangman">
+              <div class="overlay">
+                <div class="text">Hangman<br><a href="https://github.com/Ashim-Paudel/Hangman-with-word-hint-and-console-colours" target='_blank'>Click to view code</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="grid wow fadeIn">
+              <img src="img/tic-tac-toe.png" alt="Tic-Tac-Toe">
+              <div class="overlay">
+                <div class="text">Tic-Tac-Toe<br><a href="https://github.com/Ashim-Paudel/tic-tac-toe" target="_blank">Click to view code</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="grid wow fadeIn">
+              <img src="img/BMI.png" alt="BMI-Calculator">
+              <div class="overlay">
+                <div class="text">BMI-Calculator<br><a href="https://github.com/Ashim-Paudel/BMI-calculator" target="_blank">Click to view code.</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="grid wow fadeIn">
+              <img src="img/logodesign.png" alt="Logo Design">
+              <div class="overlay">
+                <div class="text">Logo Design</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="grid wow fadeIn">
+              <img src="img/vector.png" alt="Vector Portraits">
+              <div class="overlay">
+                <div class="text">Vector Portraits</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="grid wow fadeIn">
+              <img src="img/programming1.jpg" alt="other python projects">
+              <div class="overlay">
+                <div class="text">Other simple Python Projects</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="website-section">
+      <div class="container">
+        <div class="row">
+          <h2 class="title wow slideInUp">Keep in touch</h2>
+        </div>
+
+        <form action="https://formspree.io/f/mrgojzkr" method="POST" class="w-100" target='_blank'>
+          <div class="row pt-4 wow fadeIn">
+            <div class="form-group col-md-6">
+              <input type="text" name="name" class="form-control" placeholder="Enter your name..">
+            </div>
+            <div class="form-group col-md-6">
+              <input type="email" name="email" class="form-control" placeholder="Enter your email..">
+            </div>
+            <div class="form-group col-md-12">
+              <textarea class="form-control" name="message" rows="3" placeholder="Enter your message.."></textarea>
+            </div>
+            <button type="submit" class="btn btn-block submit-message">Submit</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="row wow fadeIn">
+          <div class="col-md-5">
+            <ul>
+              <li><strong>Email: </strong><a href="mailto:paudelashim111@gmail.com">paudelashim111@gmail.com</a></li>
+              <li><strong>Phone: </strong>+9779862548802</li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <a href="#home" class="scroll-link back-to-top"><i class="fa fa-2x fa-arrow-circle-up"></i></a>
+          </div>
+          <div class="col-md-5">
+            <ul class="social">
+              <li class="social-link"><a href="https://www.facebook.com/ashim.paudel.33" target="_blank"><i class="fa fa-facebook-square"></i></a></li>
+              <li class="social-link"><a href="https://github.com/Ashim-Paudel" target="_blank"><i class="fa fa-github-square"></i></a></li>
+              <li class="social-link"><a href="https://www.instagram.com/ashim_paudel_/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+
+            </ul>
+          </div>
+        </div>
+        <div class="row wow fadeIn">
+          <div class="col-md-6">
+            <a href="" target="_blank"></a>
+          </div>
+          <div class="col-md-6">
+            <p>Copyright (c) <a href="#resume">Ashim Paudel</a>.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JS Libraries -->
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/smooth-scroll.js"></script>
+    <script type="text/javascript" src="js/wow.js"></script>
+    <script type="text/javascript" src="js/particles.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+    <script type="text/javascript">
+      new WOW().init(); //activation of Wow.js
+      // Making the page scrolling when the link is clicked.
+      $('.scroll-link').on('click', function(event){
+        event.preventDefault();
+        $('html,body').animate({scrollTop:$(this.hash).offset().top-50}, 750);
+      });
+
+      $('.nav-item').on('click', function(){
+        $('.nav-item').removeClass('active');
+        $(this).addClass('active');
+      });
+    </script>
+
+  </body>
+</html>
